@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v24/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sIyfMRWOvQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v24/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sIyfMRWOvQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v24/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sIyfMRWOvQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v24/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sIyfMRWOvQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/archivo/v24/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sIyfMRWOvQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30wXiWtFCc.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxw6WQev.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVewqFHi_o.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XewqFHi_o.woff2) format('woff2');
+}

@@ -1,0 +1,51 @@
+{
+  "name": "spellbook-word-addin",
+  "version": "1.0.0",
+  "description": "AI-assisted drafting and review inside Office",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "office-addin-debugging start manifest.xml",
+    "stop": "office-addin-debugging stop manifest.xml",
+    "validate": "office-addin-manifest validate manifest.xml",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "office",
+    "word",
+    "addin",
+    "ai",
+    "legal"
+  ],
+  "author": "Spellbook Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "@fluentui/react": "^8.118.0",
+    "@fluentui/react-components": "^9.66.1",
+    "@fluentui/react-icons": "^2.0.303",
+    "@microsoft/office-js": "^1.1.90",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@types/office-js": "^1.0.377",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "office-addin-cli": "^1.5.9",
+    "office-addin-debugging": "^5.0.14",
+    "office-addin-dev-certs": "^1.12.0",
+    "office-addin-manifest": "^1.12.8",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
+  }
+}

@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
+      - JWT_SECRET=${JWT_SECRET:-your-secret-key}
+      - JWT_EXPIRY=7d
+      - REFRESH_TOKEN_EXPIRY=30d
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-your-openai-key}
+      - ALLOWED_ORIGINS=https://localhost:3000,http://localhost:3000
+      - REDIS_URL=redis://redis:6379
+      - LOG_LEVEL=info
+    depends_on:
+      - redis
+    networks:
+      - spellbook-network
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - spellbook-network
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+
+networks:
+  spellbook-network:
+    driver: bridge

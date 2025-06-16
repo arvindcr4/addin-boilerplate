@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spellbook Connection Test</title>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+<body>
+    <h1>Spellbook Add-in Test</h1>
+    <div id="status">Testing connection...</div>
+    
+    <script>
+        Office.onReady((info) => {
+            document.getElementById('status').innerHTML = `
+                <h2>✅ Office.js loaded successfully!</h2>
+                <p>Host: ${info.host}</p>
+                <p>Platform: ${info.platform}</p>
+                <p>Add-in is ready to use.</p>
+            `;
+        }).catch((error) => {
+            document.getElementById('status').innerHTML = `
+                <h2>❌ Error loading Office.js</h2>
+                <p>${error}</p>
+            `;
+        });
+    </script>
+</body>
+</html>
