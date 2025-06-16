@@ -1,6 +1,6 @@
-# Spellbook Word Add-in
+# Office AI Assistant
 
-AI-assisted drafting and review inside Microsoft Word.
+AI-assisted document processing inside Microsoft Word.
 
 ## Quick Start
 
@@ -16,7 +16,7 @@ AI-assisted drafting and review inside Microsoft Word.
 npm install
 
 # Install API dependencies
-cd spellbook-api
+cd backend-api
 npm install
 cd ..
 ```
@@ -28,7 +28,7 @@ cd ..
 
 # Option 2: Start manually in separate terminals
 # Terminal 1 - API
-cd spellbook-api
+cd backend-api
 npm run dev
 
 # Terminal 2 - Client
@@ -43,7 +43,7 @@ npm run start
 This will open Word and automatically load the add-in from `https://localhost:3000`.
 
 ### Login Credentials (Demo Mode)
-- Email: `demo@spellbook.legal`
+- Email: `demo@yourcompany.com`
 - Password: `demo`
 
 ## Features
@@ -71,7 +71,7 @@ This will open Word and automatically load the add-in from `https://localhost:30
 ### Project Structure
 
 ```
-spellbook/
+office-ai-assistant/
 ├── Documents/          # HTML entry points
 ├── Scripts/           # Legacy scripts and API helpers
 ├── src/

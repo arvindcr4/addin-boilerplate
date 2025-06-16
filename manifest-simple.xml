@@ -4,10 +4,10 @@
   xsi:type="TaskPaneApp">
   <Id>f5b0d4d5-8e0a-4c03-9bf9-36e8b7e0c002</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Spellbook Inc.</ProviderName>
+  <ProviderName>Your Company</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Spellbook Test"/>
-  <Description DefaultValue="Test version of Spellbook"/>
+  <DisplayName DefaultValue="Office AI Assistant"/>
+  <Description DefaultValue="AI-assisted document processing inside Office."/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
   <SupportUrl DefaultValue="https://localhost:3000/test-connection.html"/>

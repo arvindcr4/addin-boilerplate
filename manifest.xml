@@ -6,15 +6,15 @@
   xsi:type="TaskPaneApp">
   <Id>f5b0d4d5-8e0a-4c03-9bf9-36e8b7e0c001</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Spellbook Inc.</ProviderName>
+  <ProviderName>Your Company</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Spellbook"/>
-  <Description DefaultValue="AI-assisted drafting and review inside Office."/>
+  <DisplayName DefaultValue="Office AI Assistant"/>
+  <Description DefaultValue="AI-assisted document processing inside Office."/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://spellbook.legal/support"/>
+  <SupportUrl DefaultValue="https://yourcompany.com/support"/>
   <AppDomains>
-    <AppDomain>https://api.spellbook.legal</AppDomain>
+    <AppDomain>https://api.yourcompany.com</AppDomain>
     <AppDomain>http://localhost:4000</AppDomain>
     <AppDomain>https://localhost:3000</AppDomain>
   </AppDomains>
@@ -72,17 +72,17 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://spellbook.legal/help"/>
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://yourcompany.com/help"/>
         <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/Documents/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with Spellbook!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Spellbook"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Open Spellbook"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with Office AI Assistant!"/>
+        <bt:String id="CommandsGroup.Label" DefaultValue="AI Assistant"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Open AI Assistant"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Spellbook loaded successfully. Click the 'Open Spellbook' button to get started."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open Spellbook"/>
+        <bt:String id="GetStarted.Description" DefaultValue="AI Assistant loaded successfully. Click the 'Open AI Assistant' button to get started."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open AI Assistant"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

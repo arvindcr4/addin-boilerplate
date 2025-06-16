@@ -1,4 +1,4 @@
-# Spellbook Word Add-in – 60-Task Roadmap
+# Office AI Assistant – Development Roadmap
 
 Below is a comprehensive checklist of work items required to evolve the current prototype into a production-ready Word add-in. Tasks are grouped by theme but intentionally numbered 1-60 to help plan sprints.
 
@@ -35,7 +35,7 @@ Below is a comprehensive checklist of work items required to evolve the current 
 24. Cache document metadata (word count, jurisdiction) for Settings page.  
 25. Add error banner if Office API version < required.
 
-## AI Contract Analysis Assistant
+## AI Document Analysis Assistant
 26. Build chat-like UI inside taskpane for conversational interactions with the document.  
 27. Implement “Ask Questions” flow that extracts relevant excerpts and summarises answers.  
 28. Implement “Suggest Improvements” flow parameterised by negotiation stance (e.g., service-provider vs customer).  
@@ -48,7 +48,7 @@ Below is a comprehensive checklist of work items required to evolve the current 
 35. Add unit and E2E tests covering every assistant workflow.
 
 ## Backend connectivity
-36. Finish `spellbook-api.js` with token refresh & error handling.  
+36. Finish `api-client.js` with token refresh & error handling.
 37. Add batching + retry with exponential backoff for `gql` calls.  
 38. Integrate Frigade onboarding flows; display first-run tours.  
 39. Hook Insights endpoint for page-view & feature-usage telemetry.  

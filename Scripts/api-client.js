@@ -1,15 +1,15 @@
-// Lightweight helpers for Spellbook backend calls
+// Lightweight helpers for Office AI Assistant backend calls
 // Uses fetch with credentials included.
 
 const BASE_API = process.env.NODE_ENV === 'production' 
-  ? "https://api.spellbook.legal" 
+  ? "https://api.yourcompany.com" 
   : "http://localhost:4000";
-const BASE_FRIGADE = "https://frigade.spellbook.legal";
-const BASE_INSIGHTS = "https://insights.spellbook.legal";
+const BASE_ANALYTICS = "https://analytics.yourcompany.com";
+const BASE_INSIGHTS = "https://insights.yourcompany.com";
 
 export async function gql(query, variables = {}) {
   // Get token from localStorage
-  const token = localStorage.getItem('spellbook-token');
+  const token = localStorage.getItem('office-ai-token');
   
   const headers = {
     "Content-Type": "application/json",
@@ -49,7 +49,7 @@ export async function postFeedback(data) {
 }
 
 export async function getOnboarding(flowId) {
-  return fetch(`${BASE_FRIGADE}/flows/${flowId}`, {
+  return fetch(`${BASE_ANALYTICS}/flows/${flowId}`, {
     credentials: "include",
   }).then(r => r.json());
 }

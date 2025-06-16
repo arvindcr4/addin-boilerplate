@@ -59,7 +59,7 @@ export function Login() {
   return (
     <div className={classes.root}>
       <Card className={classes.card}>
-        <CardHeader header={<Text size={700} weight="semibold">Sign in to Spellbook</Text>} />
+        <CardHeader header={<Text size={700} weight="semibold">Sign in to AI Assistant</Text>} />
         <CardPreview>
           <form onSubmit={handleSubmit} className={classes.form}>
             <Input

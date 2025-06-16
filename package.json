@@ -1,7 +1,7 @@
 {
-  "name": "spellbook-word-addin",
+  "name": "office-ai-assistant",
   "version": "1.0.0",
-  "description": "AI-assisted drafting and review inside Office",
+  "description": "AI-assisted document processing inside Office",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -20,7 +20,7 @@
     "ai",
     "legal"
   ],
-  "author": "Spellbook Inc.",
+  "author": "Your Company",
   "license": "MIT",
   "dependencies": {
     "@fluentui/react": "^8.118.0",
